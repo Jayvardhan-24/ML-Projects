@@ -31,5 +31,5 @@ New ML projects will be added regularly, including:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jayvardhan-24/machine-learning-projects.git
-   cd machine-learning-projects
+   git clone https://github.com/Jayvardhan-24/ML-Projects.git
+   cd ML-Projects
