@@ -40,6 +40,7 @@ Welcome to my collection of machine learning projects! This repository contains 
   - Forecasting using models like ARIMA, SARIMA, and LSTM
   - Visualizations for trends, seasonality, and model forecasts
   - Evaluation using metrics like RMSE and MAE
+
 📈 A great starting point for anyone exploring data science, machine learning, and time series forecasting in real-world scenarios.
 
 ## 🚧 Upcoming Projects
