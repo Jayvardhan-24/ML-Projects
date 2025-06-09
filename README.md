@@ -21,7 +21,8 @@ Welcome to my collection of machine learning projects! This repository contains 
   - Accuracy and performance metrics
  
 ### 3. 📺 Netflix Recommendation System
-This project builds a movie recommendation system using real-world Netflix data. It demonstrates fundamental steps of working with a large dataset, including preprocessing, cleaning, analyzing, and building a basic collaborative filtering model to suggest movies to users based on their past interactions.
+  This project builds a movie recommendation system using real-world Netflix data. It demonstrates fundamental steps of working with a large dataset, including preprocessing, cleaning, analyzing, and building a 
+  basic collaborative filtering model to suggest movies to users based on their past interactions.
 
 **🔍 Project Highlights:**
 - **Data Loading & Cleaning:** Loaded a raw Netflix dataset from .zip format and handled missing/null values to separate user IDs and movie IDs.
@@ -29,6 +30,17 @@ This project builds a movie recommendation system using real-world Netflix data.
 - **Recommendation Engine:** Implemented a collaborative filtering approach using cosine similarity to suggest movies that are similar based on user preferences.
 - **Visualization:** Used Seaborn and Matplotlib to visualize key insights, such as rating distributions and popular movies.
 - **Tech Stack:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
+
+### 4. 🌦️ Weather Forecasting Using Time Series Models
+  This project focuses on predicting future weather patterns using historical data through time series forecasting techniques. It involves analyzing trends and seasonality in weather data and building models to
+  forecast variables like temperature, humidity, or rainfall.
+
+🔍 Key Features:
+  - Time series analysis of historical weather data
+  - Forecasting using models like ARIMA, SARIMA, and LSTM
+  - Visualizations for trends, seasonality, and model forecasts
+  - Evaluation using metrics like RMSE and MAE
+📈 A great starting point for anyone exploring data science, machine learning, and time series forecasting in real-world scenarios.
 
 ## 🚧 Upcoming Projects
 New ML projects will be added regularly, including:
