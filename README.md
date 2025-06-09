@@ -19,6 +19,16 @@ Welcome to my collection of machine learning projects! This repository contains 
   - Data preprocessing (handling missing values, encoding)
   - Model building and evaluation (Logistic Regression, Decision Trees, etc.)
   - Accuracy and performance metrics
+ 
+### 3. 📺 Netflix Recommendation System
+This project builds a movie recommendation system using real-world Netflix data. It demonstrates fundamental steps of working with a large dataset, including preprocessing, cleaning, analyzing, and building a basic collaborative filtering model to suggest movies to users based on their past interactions.
+
+**🔍 Project Highlights:**
+- **Data Loading & Cleaning:** Loaded a raw Netflix dataset from .zip format and handled missing/null values to separate user IDs and movie IDs.
+- **Exploratory Data Analysis:** Analyzed user rating distributions, frequency of movie ratings, and customer behavior patterns.
+- **Recommendation Engine:** Implemented a collaborative filtering approach using cosine similarity to suggest movies that are similar based on user preferences.
+- **Visualization:** Used Seaborn and Matplotlib to visualize key insights, such as rating distributions and popular movies.
+- **Tech Stack:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn
 
 ## 🚧 Upcoming Projects
 New ML projects will be added regularly, including:
