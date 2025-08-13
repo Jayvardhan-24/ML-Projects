@@ -1,0 +1,524 @@
+nohup: ignoring input
+2025-08-13 13:40:28,648 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-08-13 13:40:28,648 - data_utils - INFO - ChromaDB initialized successfully
+2025-08-13 13:40:30,361 - data_utils - ERROR - Failed to initialize embedding function: The sentence_transformers python package is not installed. Please install it with `pip install sentence_transformers`
+2025-08-13 13:40:30,361 - main - INFO - DataManager initialized successfully
+2025-08-13 13:40:30,361 - data_utils - INFO - Knowledge base loaded successfully
+2025-08-13 13:40:30,362 - data_utils - INFO - Using SimpleCollection for products (no embedding function)
+2025-08-13 13:40:30,370 - data_utils - INFO - Using SimpleCollection for technical docs (no embedding function)
+2025-08-13 13:40:30,370 - data_utils - INFO - Using SimpleCollection for conversations (no embedding function)
+2025-08-13 13:40:30,370 - main - INFO - Vector databases initialized with collections
+2025-08-13 13:40:30,370 - agent_implementations - INFO - Initialized LLM interface with model: gemma3:1b
+2025-08-13 13:40:30,370 - main - INFO - LLM initialized successfully
+2025-08-13 13:40:30,370 - agent_implementations - INFO - Agent Orchestrator initialized with all agents
+2025-08-13 13:40:30,370 - main - INFO - Agent Orchestrator initialized successfully
+INFO:     Started server process [8692]
+INFO:     Waiting for application startup.
+2025-08-13 13:40:30,373 - main - INFO - Starting up Support Agent Orchestrator
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60220 - "GET /health HTTP/1.1" 200 OK
+2025-08-13 13:40:31,093 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d637b380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:31,093 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d637b380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:31,093 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:31,093 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d637b380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:31,093 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:31,093 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d637b380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:31,093 - agent_implementations - WARNING - Using heuristic fallback classification for query: What are the key features of your Cloud Manager Pro service?
+2025-08-13 13:40:31,094 - agent_implementations - INFO - Processing product query, query: What are the key features of your Cloud Manager Pro service?
+2025-08-13 13:40:31,094 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:31,096 - agent_implementations - INFO - Relevant information: Category: General
+                    Question: Do you offer a free trial?
+                    Answer: Yes, we offer a 14-day free trial of our Cloud Manager Pro and Container Sentinel Standard products. The trial includes full access to all features and limited support. To start your free trial, visit www.techsolutions.example.com/free-trial or contact our sales team at sales@techsolutions.example.com.
+
+Category: General
+                    Question: What are your support hours?
+                    Answer: Our standard support hours are Monday through Friday, 9am to 5pm Pacific Time, excluding major holidays. Premium Support customers receive 24/7 support for critical issues. Enterprise customers with the Premium Support add-on receive personalized support with dedicated support engineers.
+
+Limitations:
+                - Limited to 5TB of protected data
+- Basic reporting capabilities
+- Support for major database engines only
+                
+                Target Audience: Organizations needing reliable backup for cloud workloads
+2025-08-13 13:40:31,096 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:31,097 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63cc190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:60222 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35588 - "POST /api/query HTTP/1.1" 422 Unprocessable Content
+2025-08-13 13:40:40,536 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63cd310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,536 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63cd310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,536 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,536 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63cd310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,536 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,536 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63cd310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,536 - agent_implementations - WARNING - Using heuristic fallback classification for query: I am getting error E5678 when trying to deploy a container. How do I fix this?
+2025-08-13 13:40:40,537 - agent_implementations - INFO - Processing technical query, query: I am getting error E5678 when trying to deploy a container. How do I fix this?
+2025-08-13 13:40:40,537 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,537 - agent_implementations - INFO - Retrieved troubleshooting information: {'documents': [['## Common Error Codes and Troubleshooting', '### Error Code E5678: Container Image Verification Failed\n\n**Symptoms:**\n- Deployment fails with "Image verification failed" message\n- Container fails to start with integrity check errors\n- Security scan shows "Verification Error"\n\n**Causes:**\n1. Corrupted container image\n2. Image signing mismatch\n3. Policy violation in image scan\n4. Registry authentication issues\n\n**Resolution Steps:**\n\n1. Check image integrity:\n   - Re-pull the image from the registry\n   - Verify image digest matches expected value\n   - Run: `kubectl describe pod <pod-name>` to see detailed error\n\n2. Signature verification:\n   - Ensure image is signed by an authorized key\n   - Verify the signing configuration in Security > Image Signing\n   - Update trusted signatures if necessary\n\n3. Policy compliance:\n   - Check if image violates security policies\n   - Review scan results in Security > Vulnerability Reports\n   - Address high-severity issues or create exceptions for approved cases\n\n4. Registry authentication:', '- Verify target systems have capacity for requested actions\n   - Consider scaling workflow execution nodes if consistently failing\n\n4. External dependencies:\n   - Verify all integrated services are operational\n   - Check connectivity to external APIs\n   - Review timeout settings for external calls\n\n---']], 'metadatas': [[{'type': 'technical_doc', 'section': 'Common Error Codes and Troubleshooting', 'chunk': '1'}, {'type': 'technical_doc', 'section': 'Error Code E5678: Container Image Verification Failed', 'chunk': '4'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '9'}]], 'ids': [['tech-1', 'tech-4', 'tech-9']]}
+2025-08-13 13:40:40,537 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,537 - agent_implementations - INFO - Relevant troubleshooting information: ## Common Error Codes and Troubleshooting
+
+### Error Code E5678: Container Image Verification Failed
+
+**Symptoms:**
+- Deployment fails with "Image verification failed" message
+- Container fails to start with integrity check errors
+- Security scan shows "Verification Error"
+
+**Causes:**
+1. Corrupted container image
+2. Image signing mismatch
+3. Policy violation in image scan
+4. Registry authentication issues
+
+**Resolution Steps:**
+
+1. Check image integrity:
+   - Re-pull the image from the registry
+   - Verify image digest matches expected value
+   - Run: `kubectl describe pod <pod-name>` to see detailed error
+
+2. Signature verification:
+   - Ensure image is signed by an authorized key
+   - Verify the signing configuration in Security > Image Signing
+   - Update trusted signatures if necessary
+
+3. Policy compliance:
+   - Check if image violates security policies
+   - Review scan results in Security > Vulnerability Reports
+   - Address high-severity issues or create exceptions for approved cases
+
+4. Registry authentication:
+
+- Verify target systems have capacity for requested actions
+   - Consider scaling workflow execution nodes if consistently failing
+
+4. External dependencies:
+   - Verify all integrated services are operational
+   - Check connectivity to external APIs
+   - Review timeout settings for external calls
+
+---
+2025-08-13 13:40:40,537 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,539 - main - INFO - Received diagnose request data: {'description': 'I am getting error E5678 when trying to deploy a container. How do I fix this?'}
+2025-08-13 13:40:40,539 - main - INFO - ********************************************
+INFO:     127.0.0.1:35602 - "POST /api/diagnose HTTP/1.1" 200 OK
+2025-08-13 13:40:40,540 - agent_implementations - INFO - Diagnostic API response: <Response [200]>
+2025-08-13 13:40:40,540 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,541 - agent_implementations - INFO - Diagnostic API returned JSON: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:40:40,541 - agent_implementations - INFO - Diagnostic API response from process function: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:40:40,541 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,541 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63af490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:35594 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:40:40,549 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d6afe570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,549 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d6afe570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,549 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,549 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d6afe570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,549 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,549 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d6afe570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,549 - agent_implementations - WARNING - Using heuristic fallback classification for query: Can you check the status of order #ORD-12345?
+2025-08-13 13:40:40,549 - agent_implementations - INFO - Processing billing query, query: Can you check the status of order #ORD-12345?
+2025-08-13 13:40:40,549 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,549 - agent_implementations - INFO - Order ID from the process function: ORD-12345
+2025-08-13 13:40:40,549 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,549 - agent_implementations - INFO - Account ID from the process function: None
+2025-08-13 13:40:40,549 - agent_implementations - INFO - ********************************************
+INFO:     127.0.0.1:35628 - "GET /api/orders/ORD-12345 HTTP/1.1" 200 OK
+2025-08-13 13:40:40,551 - agent_implementations - INFO - Order details from the order API: <Response [200]>
+2025-08-13 13:40:40,551 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,551 - agent_implementations - INFO - Order details from the process function: {'order_id': 'ORD-12345', 'status': 'shipped', 'items': [{'product_id': 'cm-pro', 'quantity': 1, 'price': 149.99}], 'total': 149.99, 'order_date': '2023-09-10', 'shipping_date': '2023-09-12', 'delivery_date': '2023-09-15'}
+2025-08-13 13:40:40,551 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,551 - agent_implementations - INFO - Account details from the process function: {}
+2025-08-13 13:40:40,551 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,552 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,552 - agent_implementations - INFO - Billing Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,552 - agent_implementations - INFO - ********************************************
+INFO:     127.0.0.1:35618 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:40:40,558 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4c00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,559 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4c00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,559 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,559 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4c00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,559 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,559 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4c00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,559 - agent_implementations - WARNING - Using heuristic fallback classification for query: I need to add three users to my account. Can you help with that?
+2025-08-13 13:40:40,559 - agent_implementations - INFO - Processing account query, query: I need to add three users to my account. Can you help with that?
+2025-08-13 13:40:40,559 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,559 - agent_implementations - INFO - Account ID extracted: ACC-1111
+INFO:     127.0.0.1:35660 - "GET /api/accounts/ACC-1111 HTTP/1.1" 200 OK
+2025-08-13 13:40:40,561 - agent_implementations - INFO - Account API response: <Response [200]>
+2025-08-13 13:40:40,561 - agent_implementations - INFO - Account API response status: 200
+2025-08-13 13:40:40,561 - agent_implementations - INFO - Raw account API response text: {"account_id":"ACC-1111","name":"Acme Corp","subscription":{"plan":"cm-pro","status":"active","start_date":"2023-01-15","renewal_date":"2024-01-15","payment_method":"credit_card","auto_renew":true},"users":[{"email":"admin@acme.example.com","role":"admin"},{"email":"user1@acme.example.com","role":"viewer"},{"email":"user2@acme.example.com","role":"operator"}]}
+2025-08-13 13:40:40,561 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,561 - agent_implementations - INFO - Retrieved account info: {'account_id': 'ACC-1111', 'name': 'Acme Corp', 'subscription': {'plan': 'cm-pro', 'status': 'active', 'start_date': '2023-01-15', 'renewal_date': '2024-01-15', 'payment_method': 'credit_card', 'auto_renew': True}, 'users': [{'email': 'admin@acme.example.com', 'role': 'admin'}, {'email': 'user1@acme.example.com', 'role': 'viewer'}, {'email': 'user2@acme.example.com', 'role': 'operator'}]}
+INFO:     127.0.0.1:35644 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:40:40,567 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,567 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,567 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,567 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,567 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,567 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,567 - agent_implementations - WARNING - Using heuristic fallback classification for query: I am having trouble with the API integration and also want to know if there is a discount for annual billing?
+2025-08-13 13:40:40,567 - agent_implementations - INFO - Processing technical query, query: I am having trouble with the API integration and also want to know if there is a discount for annual billing?
+2025-08-13 13:40:40,567 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,568 - agent_implementations - INFO - Retrieved troubleshooting information: {'documents': [['## Common Error Codes and Troubleshooting', '- Verify member clusters appear with "Connected" status\n- Test cross-cluster resource deployment\n\n4. **Troubleshooting**\n- If clusters show "Connection Failed", check network connectivity\n- Verify API server endpoints are accessible\n- Check federation-controller logs', "- Run the built-in connectivity test in Diagnostics > Network Test\n\n3. Check cloud provider status:\n   - Visit your cloud provider's status page to check for ongoing outages\n   - If services are down, wait for restoration and set up notifications\n\n4. Firewall configuration:\n   - Ensure your firewall allows outbound connections to the following endpoints:\n     - api.aws.amazon.com (for AWS)\n     - management.azure.com (for Azure)\n     - cloudresourcemanager.googleapis.com (for GCP)\n   - Default port: 443/HTTPS\n\n---"]], 'metadatas': [[{'type': 'technical_doc', 'section': 'Common Error Codes and Troubleshooting', 'chunk': '1'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '15'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '3'}]], 'ids': [['tech-1', 'tech-15', 'tech-3']]}
+2025-08-13 13:40:40,568 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,568 - agent_implementations - INFO - Relevant troubleshooting information: ## Common Error Codes and Troubleshooting
+
+- Verify member clusters appear with "Connected" status
+- Test cross-cluster resource deployment
+
+4. **Troubleshooting**
+- If clusters show "Connection Failed", check network connectivity
+- Verify API server endpoints are accessible
+- Check federation-controller logs
+
+- Run the built-in connectivity test in Diagnostics > Network Test
+
+3. Check cloud provider status:
+   - Visit your cloud provider's status page to check for ongoing outages
+   - If services are down, wait for restoration and set up notifications
+
+4. Firewall configuration:
+   - Ensure your firewall allows outbound connections to the following endpoints:
+     - api.aws.amazon.com (for AWS)
+     - management.azure.com (for Azure)
+     - cloudresourcemanager.googleapis.com (for GCP)
+   - Default port: 443/HTTPS
+
+---
+2025-08-13 13:40:40,568 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,569 - main - INFO - Received diagnose request data: {'description': 'I am having trouble with the API integration and also want to know if there is a discount for annual billing?'}
+2025-08-13 13:40:40,569 - main - INFO - ********************************************
+INFO:     127.0.0.1:35666 - "POST /api/diagnose HTTP/1.1" 200 OK
+2025-08-13 13:40:40,569 - agent_implementations - INFO - Diagnostic API response: <Response [200]>
+2025-08-13 13:40:40,569 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,569 - agent_implementations - INFO - Diagnostic API returned JSON: {'issue_id': 'unknown', 'name': 'Unrecognized Issue', 'solutions': ['Check application logs for specific error messages', 'Verify your configuration settings', 'Contact support with error details for assistance'], 'documentation_link': 'docs.techsolutions.example.com/troubleshooting'}
+2025-08-13 13:40:40,569 - agent_implementations - INFO - Diagnostic API response from process function: {'issue_id': 'unknown', 'name': 'Unrecognized Issue', 'solutions': ['Check application logs for specific error messages', 'Verify your configuration settings', 'Contact support with error details for assistance'], 'documentation_link': 'docs.techsolutions.example.com/troubleshooting'}
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,570 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,570 - agent_implementations - INFO - Processing billing query, query: I am having trouble with the API integration and also want to know if there is a discount for annual billing?
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,570 - agent_implementations - INFO - Order ID from the process function: None
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,570 - agent_implementations - INFO - Account ID from the process function: None
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,570 - agent_implementations - INFO - Order details from the process function: {}
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,570 - agent_implementations - INFO - Account details from the process function: {}
+2025-08-13 13:40:40,570 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,571 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,571 - agent_implementations - INFO - Billing Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:40:40,571 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,571 - agent_implementations - INFO - Processing product query, query: I am having trouble with the API integration and also want to know if there is a discount for annual billing?
+2025-08-13 13:40:40,571 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,572 - agent_implementations - INFO - Relevant information: Category: Billing & Pricing
+                    Question: How is your pricing structured?
+                    Answer: Our pricing is based on a subscription model with monthly or annual billing options. Annual subscriptions receive a 10% discount. Pricing tiers vary based on the product, features, and scale of resources being managed. For detailed pricing, please visit our pricing page at www.techsolutions.example.com/pricing or contact sales for custom enterprise quotes.
+
+Category: Technical
+                    Question: What APIs do you offer for integration with other tools?
+                    Answer: We provide comprehensive RESTful APIs that allow you to integrate TechSolutions with your existing tools and workflows. Our API documentation is available at developer.techsolutions.example.com. We also offer pre-built integrations with popular tools like Slack, Microsoft Teams, PagerDuty, Jira, ServiceNow, and major CI/CD platforms.
+
+Category: Technical
+                    Question: Can I use your platform with my private/hybrid cloud?
+                    Answer: Yes, our Enterprise tier supports private and hybrid cloud environments. We offer integrations with VMware vSphere, OpenStack, and bare metal servers via our on-premises connector. The connector establishes a secure outbound connection to our platform while keeping all your infrastructure behind your firewall.
+2025-08-13 13:40:40,573 - agent_implementations - INFO - ********************************************
+2025-08-13 13:40:40,573 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:35664 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,784 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,785 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,785 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,785 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,785 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,785 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,785 - agent_implementations - WARNING - Using heuristic fallback classification for query: What are the key features of your Cloud Manager Pro service?
+2025-08-13 13:41:01,785 - agent_implementations - INFO - Processing product query, query: What are the key features of your Cloud Manager Pro service?
+2025-08-13 13:41:01,785 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,786 - agent_implementations - INFO - Relevant information: Category: General
+                    Question: Do you offer a free trial?
+                    Answer: Yes, we offer a 14-day free trial of our Cloud Manager Pro and Container Sentinel Standard products. The trial includes full access to all features and limited support. To start your free trial, visit www.techsolutions.example.com/free-trial or contact our sales team at sales@techsolutions.example.com.
+
+Category: General
+                    Question: What are your support hours?
+                    Answer: Our standard support hours are Monday through Friday, 9am to 5pm Pacific Time, excluding major holidays. Premium Support customers receive 24/7 support for critical issues. Enterprise customers with the Premium Support add-on receive personalized support with dedicated support engineers.
+
+Limitations:
+                - Limited to 5TB of protected data
+- Basic reporting capabilities
+- Support for major database engines only
+                
+                Target Audience: Organizations needing reliable backup for cloud workloads
+2025-08-13 13:41:01,786 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,787 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,790 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,790 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,790 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,790 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,790 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,790 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,790 - agent_implementations - WARNING - Using heuristic fallback classification for query: I'm getting error E5678 when trying to deploy a container. How do I fix this?
+2025-08-13 13:41:01,790 - agent_implementations - INFO - Processing technical query, query: I'm getting error E5678 when trying to deploy a container. How do I fix this?
+2025-08-13 13:41:01,791 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,791 - agent_implementations - INFO - Retrieved troubleshooting information: {'documents': [['## Common Error Codes and Troubleshooting', '### Error Code E5678: Container Image Verification Failed\n\n**Symptoms:**\n- Deployment fails with "Image verification failed" message\n- Container fails to start with integrity check errors\n- Security scan shows "Verification Error"\n\n**Causes:**\n1. Corrupted container image\n2. Image signing mismatch\n3. Policy violation in image scan\n4. Registry authentication issues\n\n**Resolution Steps:**\n\n1. Check image integrity:\n   - Re-pull the image from the registry\n   - Verify image digest matches expected value\n   - Run: `kubectl describe pod <pod-name>` to see detailed error\n\n2. Signature verification:\n   - Ensure image is signed by an authorized key\n   - Verify the signing configuration in Security > Image Signing\n   - Update trusted signatures if necessary\n\n3. Policy compliance:\n   - Check if image violates security policies\n   - Review scan results in Security > Vulnerability Reports\n   - Address high-severity issues or create exceptions for approved cases\n\n4. Registry authentication:', '- Verify target systems have capacity for requested actions\n   - Consider scaling workflow execution nodes if consistently failing\n\n4. External dependencies:\n   - Verify all integrated services are operational\n   - Check connectivity to external APIs\n   - Review timeout settings for external calls\n\n---']], 'metadatas': [[{'type': 'technical_doc', 'section': 'Common Error Codes and Troubleshooting', 'chunk': '1'}, {'type': 'technical_doc', 'section': 'Error Code E5678: Container Image Verification Failed', 'chunk': '4'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '9'}]], 'ids': [['tech-1', 'tech-4', 'tech-9']]}
+2025-08-13 13:41:01,791 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,791 - agent_implementations - INFO - Relevant troubleshooting information: ## Common Error Codes and Troubleshooting
+
+### Error Code E5678: Container Image Verification Failed
+
+**Symptoms:**
+- Deployment fails with "Image verification failed" message
+- Container fails to start with integrity check errors
+- Security scan shows "Verification Error"
+
+**Causes:**
+1. Corrupted container image
+2. Image signing mismatch
+3. Policy violation in image scan
+4. Registry authentication issues
+
+**Resolution Steps:**
+
+1. Check image integrity:
+   - Re-pull the image from the registry
+   - Verify image digest matches expected value
+   - Run: `kubectl describe pod <pod-name>` to see detailed error
+
+2. Signature verification:
+   - Ensure image is signed by an authorized key
+   - Verify the signing configuration in Security > Image Signing
+   - Update trusted signatures if necessary
+
+3. Policy compliance:
+   - Check if image violates security policies
+   - Review scan results in Security > Vulnerability Reports
+   - Address high-severity issues or create exceptions for approved cases
+
+4. Registry authentication:
+
+- Verify target systems have capacity for requested actions
+   - Consider scaling workflow execution nodes if consistently failing
+
+4. External dependencies:
+   - Verify all integrated services are operational
+   - Check connectivity to external APIs
+   - Review timeout settings for external calls
+
+---
+2025-08-13 13:41:01,791 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,793 - main - INFO - Received diagnose request data: {'description': "I'm getting error E5678 when trying to deploy a container. How do I fix this?"}
+2025-08-13 13:41:01,793 - main - INFO - ********************************************
+INFO:     127.0.0.1:36584 - "POST /api/diagnose HTTP/1.1" 200 OK
+2025-08-13 13:41:01,793 - agent_implementations - INFO - Diagnostic API response: <Response [200]>
+2025-08-13 13:41:01,793 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,793 - agent_implementations - INFO - Diagnostic API returned JSON: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:41:01,793 - agent_implementations - INFO - Diagnostic API response from process function: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:41:01,793 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,794 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6be0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,797 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,797 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,797 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,797 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,797 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,797 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,797 - agent_implementations - WARNING - Using heuristic fallback classification for query: Can you check the status of order #ORD-12345?
+2025-08-13 13:41:01,797 - agent_implementations - INFO - Processing billing query, query: Can you check the status of order #ORD-12345?
+2025-08-13 13:41:01,797 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,797 - agent_implementations - INFO - Order ID from the process function: ORD-12345
+2025-08-13 13:41:01,797 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,797 - agent_implementations - INFO - Account ID from the process function: None
+2025-08-13 13:41:01,797 - agent_implementations - INFO - ********************************************
+INFO:     127.0.0.1:36586 - "GET /api/orders/ORD-12345 HTTP/1.1" 200 OK
+2025-08-13 13:41:01,799 - agent_implementations - INFO - Order details from the order API: <Response [200]>
+2025-08-13 13:41:01,799 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,799 - agent_implementations - INFO - Order details from the process function: {'order_id': 'ORD-12345', 'status': 'shipped', 'items': [{'product_id': 'cm-pro', 'quantity': 1, 'price': 149.99}], 'total': 149.99, 'order_date': '2023-09-10', 'shipping_date': '2023-09-12', 'delivery_date': '2023-09-15'}
+2025-08-13 13:41:01,799 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,799 - agent_implementations - INFO - Account details from the process function: {}
+2025-08-13 13:41:01,799 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,800 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b7240>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,800 - agent_implementations - INFO - Billing Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b7240>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,800 - agent_implementations - INFO - ********************************************
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,803 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,803 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,803 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,803 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,803 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,803 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,803 - agent_implementations - WARNING - Using heuristic fallback classification for query: I'm having trouble with the API integration and also want to know if there's a discount for annual billing?
+2025-08-13 13:41:01,803 - agent_implementations - INFO - Processing technical query, query: I'm having trouble with the API integration and also want to know if there's a discount for annual billing?
+2025-08-13 13:41:01,803 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,805 - agent_implementations - INFO - Retrieved troubleshooting information: {'documents': [['## Common Error Codes and Troubleshooting', "- Run the built-in connectivity test in Diagnostics > Network Test\n\n3. Check cloud provider status:\n   - Visit your cloud provider's status page to check for ongoing outages\n   - If services are down, wait for restoration and set up notifications\n\n4. Firewall configuration:\n   - Ensure your firewall allows outbound connections to the following endpoints:\n     - api.aws.amazon.com (for AWS)\n     - management.azure.com (for Azure)\n     - cloudresourcemanager.googleapis.com (for GCP)\n   - Default port: 443/HTTPS\n\n---", '- Verify member clusters appear with "Connected" status\n- Test cross-cluster resource deployment\n\n4. **Troubleshooting**\n- If clusters show "Connection Failed", check network connectivity\n- Verify API server endpoints are accessible\n- Check federation-controller logs']], 'metadatas': [[{'type': 'technical_doc', 'section': 'Common Error Codes and Troubleshooting', 'chunk': '1'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '3'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '15'}]], 'ids': [['tech-1', 'tech-3', 'tech-15']]}
+2025-08-13 13:41:01,805 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,805 - agent_implementations - INFO - Relevant troubleshooting information: ## Common Error Codes and Troubleshooting
+
+- Run the built-in connectivity test in Diagnostics > Network Test
+
+3. Check cloud provider status:
+   - Visit your cloud provider's status page to check for ongoing outages
+   - If services are down, wait for restoration and set up notifications
+
+4. Firewall configuration:
+   - Ensure your firewall allows outbound connections to the following endpoints:
+     - api.aws.amazon.com (for AWS)
+     - management.azure.com (for Azure)
+     - cloudresourcemanager.googleapis.com (for GCP)
+   - Default port: 443/HTTPS
+
+---
+
+- Verify member clusters appear with "Connected" status
+- Test cross-cluster resource deployment
+
+4. **Troubleshooting**
+- If clusters show "Connection Failed", check network connectivity
+- Verify API server endpoints are accessible
+- Check federation-controller logs
+2025-08-13 13:41:01,805 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,806 - main - INFO - Received diagnose request data: {'description': "I'm having trouble with the API integration and also want to know if there's a discount for annual billing?"}
+2025-08-13 13:41:01,806 - main - INFO - ********************************************
+INFO:     127.0.0.1:36588 - "POST /api/diagnose HTTP/1.1" 200 OK
+2025-08-13 13:41:01,806 - agent_implementations - INFO - Diagnostic API response: <Response [200]>
+2025-08-13 13:41:01,806 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,806 - agent_implementations - INFO - Diagnostic API returned JSON: {'issue_id': 'unknown', 'name': 'Unrecognized Issue', 'solutions': ['Check application logs for specific error messages', 'Verify your configuration settings', 'Contact support with error details for assistance'], 'documentation_link': 'docs.techsolutions.example.com/troubleshooting'}
+2025-08-13 13:41:01,806 - agent_implementations - INFO - Diagnostic API response from process function: {'issue_id': 'unknown', 'name': 'Unrecognized Issue', 'solutions': ['Check application logs for specific error messages', 'Verify your configuration settings', 'Contact support with error details for assistance'], 'documentation_link': 'docs.techsolutions.example.com/troubleshooting'}
+2025-08-13 13:41:01,806 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,807 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,807 - agent_implementations - INFO - Processing billing query, query: I'm having trouble with the API integration and also want to know if there's a discount for annual billing?
+2025-08-13 13:41:01,807 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,807 - agent_implementations - INFO - Order ID from the process function: None
+2025-08-13 13:41:01,807 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,807 - agent_implementations - INFO - Account ID from the process function: None
+2025-08-13 13:41:01,807 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,807 - agent_implementations - INFO - Order details from the process function: {}
+2025-08-13 13:41:01,807 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,807 - agent_implementations - INFO - Account details from the process function: {}
+2025-08-13 13:41:01,807 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,808 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,808 - agent_implementations - INFO - Billing Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b68b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,808 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,808 - agent_implementations - INFO - Processing product query, query: I'm having trouble with the API integration and also want to know if there's a discount for annual billing?
+2025-08-13 13:41:01,808 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,809 - agent_implementations - INFO - Relevant information: Category: Billing & Pricing
+                    Question: How is your pricing structured?
+                    Answer: Our pricing is based on a subscription model with monthly or annual billing options. Annual subscriptions receive a 10% discount. Pricing tiers vary based on the product, features, and scale of resources being managed. For detailed pricing, please visit our pricing page at www.techsolutions.example.com/pricing or contact sales for custom enterprise quotes.
+
+Category: Billing & Pricing
+                    Question: Do you offer discounts for non-profits or educational institutions?
+                    Answer: Yes, we offer special pricing for qualified non-profit organizations, educational institutions, and research facilities. These organizations may be eligible for discounts up to 25% off our standard pricing. Please contact our sales team with documentation of your organization's status to apply for this discount.
+
+Category: Technical
+                    Question: What APIs do you offer for integration with other tools?
+                    Answer: We provide comprehensive RESTful APIs that allow you to integrate TechSolutions with your existing tools and workflows. Our API documentation is available at developer.techsolutions.example.com. We also offer pre-built integrations with popular tools like Slack, Microsoft Teams, PagerDuty, Jira, ServiceNow, and major CI/CD platforms.
+2025-08-13 13:41:01,809 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,810 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4af0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,812 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b67a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,812 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b67a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,812 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,812 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b67a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,812 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,813 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b67a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,813 - agent_implementations - WARNING - Using heuristic fallback classification for query: I need to add three users to my account. Can you help with that?
+2025-08-13 13:41:01,813 - agent_implementations - INFO - Processing account query, query: I need to add three users to my account. Can you help with that?
+2025-08-13 13:41:01,813 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,813 - agent_implementations - INFO - Account ID extracted: ACC-1111
+INFO:     127.0.0.1:36604 - "GET /api/accounts/ACC-1111 HTTP/1.1" 200 OK
+2025-08-13 13:41:01,814 - agent_implementations - INFO - Account API response: <Response [200]>
+2025-08-13 13:41:01,814 - agent_implementations - INFO - Account API response status: 200
+2025-08-13 13:41:01,814 - agent_implementations - INFO - Raw account API response text: {"account_id":"ACC-1111","name":"Acme Corp","subscription":{"plan":"cm-pro","status":"active","start_date":"2023-01-15","renewal_date":"2024-01-15","payment_method":"credit_card","auto_renew":true},"users":[{"email":"admin@acme.example.com","role":"admin"},{"email":"user1@acme.example.com","role":"viewer"},{"email":"user2@acme.example.com","role":"operator"}]}
+2025-08-13 13:41:01,814 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,814 - agent_implementations - INFO - Retrieved account info: {'account_id': 'ACC-1111', 'name': 'Acme Corp', 'subscription': {'plan': 'cm-pro', 'status': 'active', 'start_date': '2023-01-15', 'renewal_date': '2024-01-15', 'payment_method': 'credit_card', 'auto_renew': True}, 'users': [{'email': 'admin@acme.example.com', 'role': 'admin'}, {'email': 'user1@acme.example.com', 'role': 'viewer'}, {'email': 'user2@acme.example.com', 'role': 'operator'}]}
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,816 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,817 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,817 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,817 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,817 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,817 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b6250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,817 - agent_implementations - WARNING - Using heuristic fallback classification for query: I have a question about something I saw on your website.
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,819 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,819 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,819 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,819 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,819 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,819 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4160>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,819 - agent_implementations - WARNING - Using heuristic fallback classification for query: I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.
+2025-08-13 13:41:01,819 - agent_implementations - INFO - Processing technical query, query: I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.
+2025-08-13 13:41:01,819 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,820 - agent_implementations - INFO - Retrieved troubleshooting information: {'documents': [['## Common Error Codes and Troubleshooting', '- Review Role Permissions in Admin > User Management\n   - Request additional permissions if needed\n\n4. Performance analysis:\n   - Check if dashboard timeout settings need adjustment\n   - Simplify complex dashboards with too many widgets\n   - Enable dashboard performance logging and check logs\n\n---', '- Verify member clusters appear with "Connected" status\n- Test cross-cluster resource deployment\n\n4. **Troubleshooting**\n- If clusters show "Connection Failed", check network connectivity\n- Verify API server endpoints are accessible\n- Check federation-controller logs']], 'metadatas': [[{'type': 'technical_doc', 'section': 'Common Error Codes and Troubleshooting', 'chunk': '1'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '7'}, {'type': 'technical_doc', 'section': 'Technical Documentation', 'chunk': '15'}]], 'ids': [['tech-1', 'tech-7', 'tech-15']]}
+2025-08-13 13:41:01,820 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,820 - agent_implementations - INFO - Relevant troubleshooting information: ## Common Error Codes and Troubleshooting
+
+- Review Role Permissions in Admin > User Management
+   - Request additional permissions if needed
+
+4. Performance analysis:
+   - Check if dashboard timeout settings need adjustment
+   - Simplify complex dashboards with too many widgets
+   - Enable dashboard performance logging and check logs
+
+---
+
+- Verify member clusters appear with "Connected" status
+- Test cross-cluster resource deployment
+
+4. **Troubleshooting**
+- If clusters show "Connection Failed", check network connectivity
+- Verify API server endpoints are accessible
+- Check federation-controller logs
+2025-08-13 13:41:01,820 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,821 - main - INFO - Received diagnose request data: {'description': "I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module."}
+2025-08-13 13:41:01,821 - main - INFO - ********************************************
+INFO:     127.0.0.1:36618 - "POST /api/diagnose HTTP/1.1" 200 OK
+2025-08-13 13:41:01,821 - agent_implementations - INFO - Diagnostic API response: <Response [200]>
+2025-08-13 13:41:01,821 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,822 - agent_implementations - INFO - Diagnostic API returned JSON: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:41:01,822 - agent_implementations - INFO - Diagnostic API response from process function: {'issue_id': 'E5678', 'name': 'Container Image Verification Failed', 'solutions': ['Check image integrity and re-pull from registry', 'Verify signature configuration in Security > Image Signing', 'Review scan results in Security > Vulnerability Reports'], 'documentation_link': 'docs.techsolutions.example.com/errors/e5678'}
+2025-08-13 13:41:01,822 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,822 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b4270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,822 - agent_implementations - INFO - Processing billing query, query: I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.
+2025-08-13 13:41:01,822 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,822 - agent_implementations - INFO - Order ID from the process function: ORD-56789
+2025-08-13 13:41:01,822 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,822 - agent_implementations - INFO - Account ID from the process function: None
+2025-08-13 13:41:01,822 - agent_implementations - INFO - ********************************************
+INFO:     127.0.0.1:36630 - "GET /api/orders/ORD-56789 HTTP/1.1" 200 OK
+2025-08-13 13:41:01,824 - agent_implementations - INFO - Order details from the order API: <Response [200]>
+2025-08-13 13:41:01,824 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,824 - agent_implementations - INFO - Order details from the process function: {'order_id': 'ORD-56789', 'status': 'processing', 'items': [{'product_id': 'cm-enterprise', 'quantity': 1, 'price': 499.99}, {'product_id': 'addon-premium-support', 'quantity': 1, 'price': 299.99}], 'total': 799.98, 'order_date': '2023-09-22', 'shipping_date': None, 'delivery_date': None}
+2025-08-13 13:41:01,824 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,824 - agent_implementations - INFO - Account details from the process function: {}
+2025-08-13 13:41:01,824 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,825 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b45a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,825 - agent_implementations - INFO - Billing Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b45a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,825 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,825 - agent_implementations - INFO - Processing account query, query: I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.
+2025-08-13 13:41:01,825 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,825 - agent_implementations - INFO - Account ID extracted: ACC-1111
+INFO:     127.0.0.1:36644 - "GET /api/accounts/ACC-1111 HTTP/1.1" 200 OK
+2025-08-13 13:41:01,827 - agent_implementations - INFO - Account API response: <Response [200]>
+2025-08-13 13:41:01,827 - agent_implementations - INFO - Account API response status: 200
+2025-08-13 13:41:01,827 - agent_implementations - INFO - Raw account API response text: {"account_id":"ACC-1111","name":"Acme Corp","subscription":{"plan":"cm-pro","status":"active","start_date":"2023-01-15","renewal_date":"2024-01-15","payment_method":"credit_card","auto_renew":true},"users":[{"email":"admin@acme.example.com","role":"admin"},{"email":"user1@acme.example.com","role":"viewer"},{"email":"user2@acme.example.com","role":"operator"}]}
+2025-08-13 13:41:01,827 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,827 - agent_implementations - INFO - Retrieved account info: {'account_id': 'ACC-1111', 'name': 'Acme Corp', 'subscription': {'plan': 'cm-pro', 'status': 'active', 'start_date': '2023-01-15', 'renewal_date': '2024-01-15', 'payment_method': 'credit_card', 'auto_renew': True}, 'users': [{'email': 'admin@acme.example.com', 'role': 'admin'}, {'email': 'user1@acme.example.com', 'role': 'viewer'}, {'email': 'user2@acme.example.com', 'role': 'operator'}]}
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK
+2025-08-13 13:41:01,830 - agent_implementations - ERROR - Error generating LLM response: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5480>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,830 - agent_implementations - INFO - Router Agent response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5480>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,830 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,830 - agent_implementations - INFO - Cleaned response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5480>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,830 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,830 - agent_implementations - ERROR - JSON parsing failed. Raw response: I encountered an error while processing your request. Error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f72d63b5480>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-08-13 13:41:01,830 - agent_implementations - WARNING - Using heuristic fallback classification for query: I need to upgrade my team's subscription from Basic to Pro and add 5 new user licenses. Also, what's the status of ticket #TKT-12345?
+2025-08-13 13:41:01,830 - agent_implementations - INFO - Processing account query, query: I need to upgrade my team's subscription from Basic to Pro and add 5 new user licenses. Also, what's the status of ticket #TKT-12345?
+2025-08-13 13:41:01,830 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,830 - agent_implementations - INFO - Account ID extracted: ACC-1111
+INFO:     127.0.0.1:36658 - "GET /api/accounts/ACC-1111 HTTP/1.1" 200 OK
+2025-08-13 13:41:01,831 - agent_implementations - INFO - Account API response: <Response [200]>
+2025-08-13 13:41:01,831 - agent_implementations - INFO - Account API response status: 200
+2025-08-13 13:41:01,831 - agent_implementations - INFO - Raw account API response text: {"account_id":"ACC-1111","name":"Acme Corp","subscription":{"plan":"cm-pro","status":"active","start_date":"2023-01-15","renewal_date":"2024-01-15","payment_method":"credit_card","auto_renew":true},"users":[{"email":"admin@acme.example.com","role":"admin"},{"email":"user1@acme.example.com","role":"viewer"},{"email":"user2@acme.example.com","role":"operator"}]}
+2025-08-13 13:41:01,831 - agent_implementations - INFO - ********************************************
+2025-08-13 13:41:01,832 - agent_implementations - INFO - Retrieved account info: {'account_id': 'ACC-1111', 'name': 'Acme Corp', 'subscription': {'plan': 'cm-pro', 'status': 'active', 'start_date': '2023-01-15', 'renewal_date': '2024-01-15', 'payment_method': 'credit_card', 'auto_renew': True}, 'users': [{'email': 'admin@acme.example.com', 'role': 'admin'}, {'email': 'user1@acme.example.com', 'role': 'viewer'}, {'email': 'user2@acme.example.com', 'role': 'operator'}]}
+INFO:     127.0.0.1:36582 - "POST /api/query HTTP/1.1" 200 OK

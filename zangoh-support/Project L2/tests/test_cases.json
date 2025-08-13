@@ -1,0 +1,64 @@
+{
+  "product": [
+    {
+      "id": "prod-1",
+      "query": "What are the key features of your Cloud Manager Pro service?",
+      "expected_output": "Cloud Manager Pro",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "technical": [
+    {
+      "id": "tech-1",
+      "query": "I'm getting error E5678 when trying to deploy a container. How do I fix this?",
+      "expected_output": "Container Image Verification Failed",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "billing": [
+    {
+      "id": "bill-1",
+      "query": "Can you check the status of order #ORD-12345?",
+      "expected_output": "Shipped",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "multi_part": [
+    {
+      "id": "mp-1",
+      "query": "I'm having trouble with the API integration and also want to know if there's a discount for annual billing?",
+      "expected_output": "discount",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "account": [
+    {
+      "id": "acct-1",
+      "query": "I need to add three users to my account. Can you help with that?",
+      "expected_output": "add users",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "edge": [
+    {
+      "id": "edge-1",
+      "query": "I have a question about something I saw on your website.",
+      "expected_output": "provide more details",
+      "criteria": {"min_score": 60}
+    }
+  ],
+  "advanced": [
+    {
+      "id": "adv-1",
+      "query": "I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.",
+      "expected_output": "ORD-56789",
+      "criteria": {"min_score": 60}
+    },
+    {
+      "id": "adv-2",
+      "query": "I need to upgrade my team's subscription from Basic to Pro and add 5 new user licenses. Also, what's the status of ticket #TKT-12345?",
+      "expected_output": "subscription",
+      "criteria": {"min_score": 60}
+    }
+  ]
+}
