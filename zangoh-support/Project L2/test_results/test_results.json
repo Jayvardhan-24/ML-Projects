@@ -1,0 +1,244 @@
+{
+  "summary": {
+    "total_tests": 8,
+    "passed_tests": 0,
+    "pass_rate": 0.0,
+    "average_scores": {
+      "accuracy": 0.0,
+      "completeness": 0.0,
+      "relevance": 0.0,
+      "clarity": 0.0,
+      "agent_appropriateness": 0.0,
+      "overall": 0.0
+    }
+  },
+  "category_results": {
+    "product": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "technical": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "billing": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "multi_part": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "account": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "edge": {
+      "total": 1,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    },
+    "advanced": {
+      "total": 2,
+      "passed": 0,
+      "score": 0,
+      "pass_rate": 0.0,
+      "avg_score": 0.0
+    }
+  },
+  "test_results": [
+    {
+      "id": "prod-1",
+      "category": "product",
+      "query": "What are the key features of your Cloud Manager Pro service?",
+      "expected_output": "Cloud Manager Pro",
+      "actual_response": "Here are the key details for Cloud Manager Pro:\n\nPricing: $149.99/month or $1619.89/year (10% annual discount).\n\nKey features:\n- Advanced Monitoring: Detailed monitoring including custom metrics, application-level insights, and historical trending.\n- Smart Alerting: AI-powered alerts with anomaly detection and correlation analysis.\n- Cost Optimization: Identifies cost-saving opportunities and provides rightsizing recommendations.\n- Automation Workflows: Create simple automation routines for common tasks and remediation.\n- Multi-Cloud Support: Support for AWS, Azure, and Google Cloud Platform.\n- 20 User Accounts: Support for up to 20 user accounts with advanced role-based permissions.\n\nLimitations:\n- Limited to 100 monitored resources\n- Basic compliance reporting\n- Email and chat support with 12-hour response time\n\nIf you'd like, I can compare this with other plans or dive deeper into any specific feature.",
+      "agent_type": "product",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5046966c10>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "tech-1",
+      "category": "technical",
+      "query": "I'm getting error E5678 when trying to deploy a container. How do I fix this?",
+      "expected_output": "Container Image Verification Failed",
+      "actual_response": "I understand you're experiencing: Container Image Verification Failed.\n\nHere are actionable steps to resolve it:\n1. Check image integrity and re-pull from registry\n2. Verify signature configuration in Security > Image Signing\n3. Review scan results in Security > Vulnerability Reports\n\nAdditional context from documentation:\n## Common Error Codes and Troubleshooting\n\n### Error Code E5678: Container Image Verification Failed\n\n**Symptoms:**\n- Deployment fails with \"Image verification failed\" message\n- Container fails to start with integrity check errors\n- Security scan shows \"Verification Error\"\n\n**Causes:**\n1. Corrupted container image\n2. Image signing mismatch\n3. Policy violation in image scan\n4. Registry authentication issues\n\n**Resolution Steps:**\n\n1. Check image integrity:\n   - Re-pull the image from the registry\n   - Verify image digest matches expected value\n   - Run: `kubectl describe pod <pod-name>` to see detailed error\n\n2. Signature verification:\n   - Ensure image is signed by an authorized key\n   - Verify the signing configuration in Security > Image Signing\n   - Update trusted signatures if necessary\n\n3. Policy compliance:\n   - Check if image violates security policies\n   - Review scan results in Security > Vulnerability Reports\n   - Address high-severity issues or create exceptions for approved cases\n\n4. Registry authentication:\n\n- Verify target systems have capacity for requested actions\n   - Consider scaling workflow execution nodes if consistently failing\n\n4. External dependencies:\n   - Verify all integrated services are operational\n   - Check connectivity to external APIs\n   - Review timeout settings for external calls\n\n---\n\nReference: docs.techsolutions.example.com/errors/e5678",
+      "agent_type": "technical",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5046967890>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "bill-1",
+      "category": "billing",
+      "query": "Can you check the status of order #ORD-12345?",
+      "expected_output": "Shipped",
+      "actual_response": "I'd be happy to help with your billing/order question.\nOrder ORD-12345 status: Shipped\nOrder Date: 2023-09-10\nShipping Date: 2023-09-12\nDelivery Date: 2023-09-15\nItems: cm-pro (1 x $149.99)\nTotal Amount: $149.99",
+      "agent_type": "billing",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5046aefce0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "mp-1",
+      "category": "multi_part",
+      "query": "I'm having trouble with the API integration and also want to know if there's a discount for annual billing?",
+      "expected_output": "discount",
+      "actual_response": "I understand you're experiencing: Unrecognized Issue.\n\nHere are actionable steps to resolve it:\n1. Check application logs for specific error messages\n2. Verify your configuration settings\n3. Contact support with error details for assistance\n\nAdditional context from documentation:\n## Common Error Codes and Troubleshooting\n\n- Run the built-in connectivity test in Diagnostics > Network Test\n\n3. Check cloud provider status:\n   - Visit your cloud provider's status page to check for ongoing outages\n   - If services are down, wait for restoration and set up notifications\n\n4. Firewall configuration:\n   - Ensure your firewall allows outbound connections to the following endpoints:\n     - api.aws.amazon.com (for AWS)\n     - management.azure.com (for Azure)\n     - cloudresourcemanager.googleapis.com (for GCP)\n   - Default port: 443/HTTPS\n\n---\n\n- Verify member clusters appear with \"Connected\" status\n- Test cross-cluster resource deployment\n\n4. **Troubleshooting**\n- If clusters show \"Connection Failed\", check network connectivity\n- Verify API server endpoints are accessible\n- Check federation-controller logs\n\nReference: docs.techsolutions.example.com/troubleshooting\n\nI'd be happy to help with your billing/order question.\n\nBased on our documentation, here are relevant details I found:\n\nCategory: Billing & Pricing\n                    Question: How is your pricing structured?\n                    Answer: Our pricing is based on a subscription model with monthly or annual billing options. Annual subscriptions receive a 10% discount. Pricing tiers vary based on the product, features, and scale of resources being managed. For detailed pricing, please visit our pricing page at www.techsolutions.example.com/pricing or contact sales for custom enterprise quotes.\n\nCategory: Billing & Pricing\n                    Question: Do you offer discounts for non-profits or educational institutions?\n                    Answer: Yes, we offer special pricing for qualified non-profit organizations, educational institutions, and research facilities. These organizations may be eligible for discounts up to 25% off our standard pricing. Please contact our sales team with documentation of your organization's status to apply for this discount.\n\nCategory: Technical\n                    Question: What APIs do you offer for integration with other tools?\n                    Answer: We provide comprehensive RESTful APIs that allow you to integrate TechSolutions with your existing tools and workflows. Our API documentation is available at developer.techsolutions.example.com. We also offer pre-built integrations with popular tools like Slack, Microsoft Teams, PagerDuty, Jira, ServiceNow, and major CI/CD platforms.\n\nLet me know if you want a comparison between products or more pricing details.",
+      "agent_type": "multiple",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f50469a0640>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "acct-1",
+      "category": "account",
+      "query": "I need to add three users to my account. Can you help with that?",
+      "expected_output": "add users",
+      "actual_response": "I'd be happy to help you add users to your account.\n\nYour current subscription plan is: cm-pro.\nCurrent number of user accounts: 3.\nAvailable user slots: 17.\n\nTo add users, please follow these steps:\n1. Log in to the customer portal at portal.techsolutions.example.com\n2. Navigate to Admin > User Management > Add User\n3. Enter the email addresses for the new users\n4. Select the appropriate role for each new user (Admin, Operator, Auditor, or Viewer)\n5. Customize permissions if needed\n6. Click 'Send Invitation'\n\nIf you need to add users beyond your plan's limit, you may consider purchasing additional licenses.",
+      "agent_type": "account",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f50469a45f0>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "edge-1",
+      "category": "edge",
+      "query": "I have a question about something I saw on your website.",
+      "expected_output": "provide more details",
+      "actual_response": "Could you please rephrase or provide more details about your question?",
+      "agent_type": "router",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f504696e580>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "adv-1",
+      "category": "advanced",
+      "query": "I'm getting error E5678 on my Enterprise account deployment, and I also need to check if my recent order #ORD-56789 includes the new security module.",
+      "expected_output": "ORD-56789",
+      "actual_response": "I understand you're experiencing: Container Image Verification Failed.\n\nHere are actionable steps to resolve it:\n1. Check image integrity and re-pull from registry\n2. Verify signature configuration in Security > Image Signing\n3. Review scan results in Security > Vulnerability Reports\n\nAdditional context from documentation:\n## Common Error Codes and Troubleshooting\n\n- Review Role Permissions in Admin > User Management\n   - Request additional permissions if needed\n\n4. Performance analysis:\n   - Check if dashboard timeout settings need adjustment\n   - Simplify complex dashboards with too many widgets\n   - Enable dashboard performance logging and check logs\n\n---\n\n- Verify member clusters appear with \"Connected\" status\n- Test cross-cluster resource deployment\n\n4. **Troubleshooting**\n- If clusters show \"Connection Failed\", check network connectivity\n- Verify API server endpoints are accessible\n- Check federation-controller logs\n\nReference: docs.techsolutions.example.com/errors/e5678\n\nI'd be happy to help with your billing/order question.\nOrder ORD-56789 status: Processing\nOrder Date: 2023-09-22\nShipping Date: None\nDelivery Date: None\nItems: cm-enterprise (1 x $499.99), addon-premium-support (1 x $299.99)\nTotal Amount: $799.98\n\nI'd be happy to help you add users to your account.\n\nYour current subscription plan is: cm-pro.\nCurrent number of user accounts: 3.\nAvailable user slots: 17.\n\nTo add users, please follow these steps:\n1. Log in to the customer portal at portal.techsolutions.example.com\n2. Navigate to Admin > User Management > Add User\n3. Enter the email addresses for the new users\n4. Select the appropriate role for each new user (Admin, Operator, Auditor, or Viewer)\n5. Customize permissions if needed\n6. Click 'Send Invitation'\n\nIf you need to add users beyond your plan's limit, you may consider purchasing additional licenses.",
+      "agent_type": "multiple",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f504696ee00>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    },
+    {
+      "id": "adv-2",
+      "category": "advanced",
+      "query": "I need to upgrade my team's subscription from Basic to Pro and add 5 new user licenses. Also, what's the status of ticket #TKT-12345?",
+      "expected_output": "subscription",
+      "actual_response": "I'd be happy to help you add users to your account.\n\nYour current subscription plan is: cm-pro.\nCurrent number of user accounts: 3.\nAvailable user slots: 17.\n\nTo add users, please follow these steps:\n1. Log in to the customer portal at portal.techsolutions.example.com\n2. Navigate to Admin > User Management > Add User\n3. Enter the email addresses for the new users\n4. Select the appropriate role for each new user (Admin, Operator, Auditor, or Viewer)\n5. Customize permissions if needed\n6. Click 'Send Invitation'\n\nIf you need to add users beyond your plan's limit, you may consider purchasing additional licenses.",
+      "agent_type": "account",
+      "evaluation": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "clarity": 0,
+        "agent_appropriateness": 0,
+        "total_score": 0,
+        "percentage": 0,
+        "strengths": [],
+        "weaknesses": [
+          "Evaluation error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f504696e580>: Failed to establish a new connection: [Errno 111] Connection refused'))"
+        ],
+        "passed": false
+      }
+    }
+  ]
+}
