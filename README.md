@@ -41,6 +41,22 @@ Welcome to my collection of machine learning projects! This repository contains 
   - Visualizations for trends, seasonality, and model forecasts
   - Evaluation using metrics like RMSE and MAE
 
+### 5. 🎵 Music Recommender System
+  A simple web app built with Streamlit and Spotipy that recommends songs based on your selection and displays album covers using the Spotify API.
+
+Features:
+ - Suggests 5 similar songs for any selected track
+ - Fetches album covers dynamically via Spotify API
+ - Smooth loading spinner while fetching recommendations
+ - Automatically generates required data files (df.pkl and similarity.pkl) from CSV
+
+Dependencies:
+ - Python 3.x
+ - Streamlit
+ - Spotipy
+ - Pandas
+ - scikit-learn
+
 📈 A great starting point for anyone exploring data science, machine learning, and time series forecasting in real-world scenarios.
 
 ## 🚧 Upcoming Projects
